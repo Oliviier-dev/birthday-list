@@ -1,0 +1,58 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: crimson;
+    height: 100%;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.showcase{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper{
+    background-color: #fff;
+    width: 34%;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.birth-person{
+    display: flex;
+    padding: 0px;  
+}
+
+.birth-person div{
+    padding-left: 12px;
+}
+
+.birth-person div p{
+    position: relative;
+    bottom: 12px; 
+}
+
+.btn{
+    margin-top: 16px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: crimson; 
+    padding: 8px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
